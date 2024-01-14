@@ -1,0 +1,5 @@
+			<div id="deletePanel">
+				<h1>Are you sure you want to delete</h1>
+				<button class="btn btn-danger" id="deleteConfirm">delete</button>
+				<button class="btn btn-secondary cancelButton">Cancel</button>
+			</div>

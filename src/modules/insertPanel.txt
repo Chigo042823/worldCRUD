@@ -1,0 +1,36 @@
+		<div id="insertPanel" class="p-4 rounded">
+			<h1>Add a New Country</h1>
+			<section id="formContainer">
+				<section>
+					<label for="countryCode">Country Code:</label>
+					<input type="text" class="form-control" id="countryCode">
+
+					<label for="countryName">Country Name:</label>
+					<input type="text" class="form-control" id="countryName">
+
+					<label for="countryContinent">Continent:</label>
+					<select class="form-select" id="countryContinent">
+						<option selected>Choose a continent</option>	
+						<option value="Europe">Europe</option>
+						<option value="Asia">Asia</option>
+						<option value="Africa">Africa</option>
+						<option value="North America">North America</option>
+						<option value="South America">South America</option>
+						<option value="Antarctica">Antarctica</option>
+						<option value="Australia">Australia</option>
+					</select>
+				</section>
+				<section id="row2">
+					<label for="surfaceArea">Surface Area:</label>
+					<input type="text" class="form-control" id="surfaceArea">
+
+					<label for="population">Population:</label>
+					<input type="text" class="form-control" id="population">
+
+					<label for="governmentForm">Government Form:</label>
+					<input type="text" class="form-control" id="governmentForm">
+				</section>
+			</section>
+			<button class="btn btn-success" id="insertConfirm">Confirm</button>
+			<button class="btn btn-secondary cancelButton">Cancel</button>
+		</div>

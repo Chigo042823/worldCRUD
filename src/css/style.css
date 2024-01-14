@@ -1,0 +1,72 @@
+#editPanel, #insertPanel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: #212529;
+    padding: 3%;
+    padding-top: 1%;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 2vw;
+}
+
+#deletePanel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 1% 2% 1% 2%;
+    height: 22vh;
+    width: 70vw;
+    border-radius: 2vw;
+}
+
+#panelContainer div h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#formContainer {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+#formContainer section input, select {
+    width: 31.5vw;
+}
+
+#row2 {
+    margin-left: 10vw;
+}
+
+#header {
+    padding: 1.5% 1% 1% 1%;   
+}
+
+#tableWidgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4%;
+}
+
+#tableWidgets button {
+    height: 20%;
+    margin-left: auto;
+}
+
+#searchBar {
+    width: 20%;
+}
+
+#tableWrap {
+    height: 80vh;
+    width: 97vw;
+    margin: auto;
+    position: relative;
+    overflow-y: scroll;
+}

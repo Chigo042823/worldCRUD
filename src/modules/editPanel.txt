@@ -1,0 +1,27 @@
+		<div id="editPanel" class="p-4 rounded">
+			<h1>Edit</h1>
+			<section id="formContainer">
+				<section>
+					<label for="countryCode">Country Code:</label>
+					<input disabled type="text" class="form-control" id="countryCode">
+
+					<label for="countryName">Country Name:</label>
+					<input type="text" class="form-control" id="countryName">
+
+					<label for="countryContinent">Continent:</label>
+					<input type="text" class="form-control" id="countryContinent">
+				</section>
+				<section id="row2">
+					<label for="surfaceArea">Surface Area:</label>
+					<input type="text" class="form-control" id="surfaceArea">
+
+					<label for="population">Population:</label>
+					<input type="text" class="form-control" id="population">
+
+					<label for="governmentForm">Government Form:</label>
+					<input type="text" class="form-control" id="governmentForm">
+				</section>
+			</section>
+			<button class="btn btn-primary" id="editConfirm">Edit</button>
+			<button class="btn btn-secondary cancelButton" id="cancelButton">Cancel</button>
+		</div>
